@@ -1,0 +1,1 @@
+"use strict";const r=require("./EsButton.vue.cjs2.js"),e=require("vue"),n=require("../../_virtual/_plugin-vue_export-helper.cjs.js");function o(t,s,c,l,p,_){return e.openBlock(),e.createElementBlock("button",null,[e.renderSlot(t.$slots,"default")])}const u=n(r,[["render",o]]);module.exports=u;

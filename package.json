@@ -1,0 +1,19 @@
+{
+  "name": "@eshop-ui/monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "apps/preview/*",
+    "packages/*",
+    "packages/esui/*",
+    "packages/esui/frameworks/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": ">=8.19.1",
+    "node": ">=16"
+  }
+}

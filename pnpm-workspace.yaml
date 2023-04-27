@@ -1,0 +1,11 @@
+packages:
+  # all packages in direct subdirs of apps/
+  - 'apps/*'
+  # all packages in direct subdirs of apps/preview/
+  - 'apps/preview/*'
+  # all packages in direct subdirs of packages/
+  - 'packages/*'
+  # all packages in direct subdirs of packages/vsui/
+  - "packages/esui/*"
+  # all packages in direct subdirs of packages/vsui/
+  - "packages/esui/frameworks/*"
