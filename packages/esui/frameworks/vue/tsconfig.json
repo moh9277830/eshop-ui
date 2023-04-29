@@ -15,7 +15,10 @@
     "baseUrl": ".",
     "types": [
       "vite/client",
-    ]
+    ],
+    "paths": {
+      "@eshop-ui/vue": ["./index.ts"]
+    }
   },
   "include": [
     "**/*.ts", 

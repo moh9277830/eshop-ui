@@ -1,6 +1,6 @@
 {
   "name": "@eshop-ui/vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI components for Vue.js",
   "author": "Mohamed Alalaiwat <moh9277830@hotmail.com>",
   "license": "MIT",
@@ -11,6 +11,7 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs.js"
     },
+    "./dist/style.css": "./dist/style.css",
     "./*": "./*"
   },
   "source": "index.ts",

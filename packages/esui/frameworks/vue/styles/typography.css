@@ -1,0 +1,15 @@
+:root {
+    --text-color-black: rgb(0 0 0);
+    --text-color-white: rgb(255 255 255);
+
+    --text-primary-900: var(--colors-primary-900);
+    --text-primary-800: var(--colors-primary-800);
+    --text-primary-700: var(--colors-primary-700);
+    --text-primary-600: var(--colors-primary-600);
+    --text-primary-500: var(--colors-primary-500);
+    --text-primary-400: var(--colors-primary-400);
+    --text-primary-300: var(--colors-primary-300);
+    --text-primary-200: var(--colors-primary-200);
+    --text-primary-100: var(--colors-primary-100);
+    --text-primary-50: var(--colors-primary-50);
+}

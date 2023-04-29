@@ -1,17 +1,41 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { defineComponent } from 'vue';
+import { useRouter, RouterView } from 'vue-router';
+
+export default defineComponent({
+  name: 'App',
+  setup() {
+    const router = useRouter();
+
+    return {
+      router
+    }
+  }
+});
 </script>
 
 <template>
-  <div>
+  <header>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  
+    <nav>
+      <ul>
+        <li>
+          <router-link to="/">Home</router-link>
+        </li>
+        <li>
+          <router-link to="/about">About</router-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <RouterView />
 </template>
 
 <style scoped>
